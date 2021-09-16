@@ -13,14 +13,14 @@
             <div class="col-md-6">
                 <div class="pin-generator half-width">
                     <input class="form-control text-center" id="generate_input" type="text">
-                    <button class="generate-btn" id="generate_button">Generate Pin</button>
+                    <button class="generate-btn" id="generate_button" onclick="generatePin()">Generate Pin</button>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="input-section half-width">
-                    <input class="form-control display text-center" type="text">
+                    <input class="form-control display text-center" id="typed_pin" type="text">
                     <div class="numbers">
-                        <div class="calc-body">
+                        <div class="calc-body" id="calc_body">
                             <div class="calc-button-row">
                               <div class="button">7</div>
                               <div class="button">8</div>
@@ -37,7 +37,7 @@
                               <div class="button">3</div>
                             </div>
                             <div class="calc-button-row">
-                                <div class="button">&lt;</div>
+                                <div class="button">B</div>
                                 <div class="button">0</div>
                                 <div class="button">C</div>
                             </div>
